@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
 import "../src/ERC20Maker.sol";
 
-contract CappucinoTest is Test {
+contract ERC20MakerTest is Test {
     ERC20Maker token1;
     ERC20Maker token2;
 
